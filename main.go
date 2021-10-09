@@ -2,7 +2,8 @@ package main
 
 import (
 	"log"
-	"webcalculator/routers"
+
+	"github.com/AnjuAshokPA/web-calculator/routers"
 )
 
 func main() {

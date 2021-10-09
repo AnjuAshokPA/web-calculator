@@ -2,7 +2,8 @@ package routers
 
 import (
 	"net/http"
-	"webcalculator/handlers"
+
+	"github.com/AnjuAshokPA/web-calculator/handlers"
 )
 
 // Routers function is for hosting the webserver

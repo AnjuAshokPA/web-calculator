@@ -6,7 +6,8 @@ import (
 	"html/template"
 	"log"
 	"net/http"
-	"webcalculator/operations"
+
+	"github.com/AnjuAshokPA/web-calculator/operations"
 )
 
 // Create handler loads a calculator webpage with title as Hello World
@@ -36,5 +37,5 @@ func Calculator(w http.ResponseWriter, r *http.Request) {
 	log.Println("The final value is:", finalValue)
 	w.WriteHeader(http.StatusOK)
 	//log.Fatal(err1)
-	json.NewEncoder(w).Encode(fmt.Sprintf("%d",finalValue))
+	json.NewEncoder(w).Encode(fmt.Sprintf("%d", finalValue))
 }
