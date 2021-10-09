@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<header>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="/views/js/page.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="/views/css/page.css">
+	<title>Hello</title>
+</header>
+<body>
+Hello world
+<form action="/calculator" method="POST">
+	<label>Enter your expression:</label><br>
+	<input type="text" id="expr1" name="expr1"><br>
+	<label id="text-empty-error"></label><br>
+	<input type="submit" value="calculate"><br>
+	<label id="result"></label><br>
+	<label id="calculation-error"></label><br>
+</form>
+</body>
+</html>

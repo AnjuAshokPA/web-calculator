@@ -1,0 +1,10 @@
+body {
+    background-color: lightblue;
+}
+
+#text-empty-error {
+    color: rgb(223, 80, 80);
+}
+#result{
+    color: green;
+}
